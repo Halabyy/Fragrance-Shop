@@ -1,0 +1,48 @@
+
+    /* Additional CSS for your cart page goes here */
+    /* You can customize it further if needed */
+    /* Add your custom styles here */
+    /* For example, you may want to style the table, total price, etc. */
+    /* Customize the styles based on your design preferences */
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .total-price {
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .cart-product button {
+        background-color: #291b1b;
+        color: white;
+        border: none;
+        padding: 10px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .cart-product button:hover {
+        background-color: #1a1111;
+    }
+
